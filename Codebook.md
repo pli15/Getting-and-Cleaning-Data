@@ -2,9 +2,7 @@
 This codebook will give you an overview of the dataset, including the definitions of the variables, dataset summary, variable attributes, etc.
 
 ## Variable Definitions
-The variables here are all from the final tidy dataset.
-
-CODE TO LIST VARIABLES: 
+The variables here are all from the final tidy dataset.Code to list variables is: 
 ```
 key(data_tidy)
 ```
@@ -26,7 +24,10 @@ key(data_tidy)
 |average	|Average value of the metric										    |
 
 ## Dataset Summary
-	summary(data_tidy)
+Code to see the overview of the dataset is:
+```
+summary(data_tidy)
+```
 
     Subject         Activity     Activity_Name          Var             time_freq           Acc_Gyro         Body_Gravity           Jerk            Magnitude         Calculation           Axial               value         
  Min.   : 1.00   Min.   :1.000   Length:813615      Length:813615      Length:813615      Length:813615      Length:813615      Length:813615      Length:813615      Length:813615      Length:813615      Min.   :-1.00000  
@@ -45,7 +46,11 @@ key(data_tidy)
 
 
 ## Variable Attributes
-	str(data_tidy)
+Code to see the variable attributes is:
+```
+str(data_tidy)
+```
+	
 
 Classes ¡®data.table¡¯ and 'data.frame':  813615 obs. of  13 variables:
  $ Subject      : int  1 1 1 1 1 1 1 1 1 1 ...
