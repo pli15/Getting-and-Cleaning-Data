@@ -32,7 +32,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 1. Load related R packages: downloader, data.table
 2. Download & unzip the data
 3. Set working directory
-4. Run Code.R (Markdown)
+4. Run Run_Analysis.R (Markdown)
 
 ## Outputs
 1. Code book (Markdown): it explains what each variable refers to
