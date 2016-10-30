@@ -5,8 +5,9 @@ This codebook will give you an overview of the dataset, including the definition
 The variables here are all from the final tidy dataset.
 
 CODE TO LIST VARIABLES: 
-
-`key(data_tidy)
+```
+key(data_tidy)
+```
 
 |Variable	|Definitions												    |
 |---------------|:---------------------------------------------------------------------------------------------------------:|
