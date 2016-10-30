@@ -35,4 +35,5 @@ From the data set in step 4, creates a second, independent tidy data set with th
 4. Run Code.R (Markdown)
 
 ## Outputs
-1. Code book (Markdown): it explains what each variable refer to
+1. Code book (Markdown): it explains what each variable refers to
+2. Tidy dataset (Submitted through Coursera): it is the final output of the project
