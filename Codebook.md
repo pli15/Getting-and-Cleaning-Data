@@ -4,22 +4,25 @@ This codebook will give you an overview of the dataset, including the definition
 ## Variable Definitions
 The variables here are all from the final tidy dataset.
 
-CODE TO LIST VARIABLES: key(data_tidy)
+CODE TO LIST VARIABLES: 
 
-Variable	Definitions
-Subject		Observaions
-Activity	Activity No.
-Activity_Name	Activity Name
-Var		Calculated Metrics
-time_freq	Identify whether this metric is calculated as time domain signals or frequency
-Acc_Gyro	Identify whether this metric is calculated as accelerometer and gyroscope
-Body_Gravity	Identify whether this metric is calculated as body acceleration signals or gravity acceleration signals
-Jerk		Identify whether this metric shows jerk signals
-Magnitude	Identify whether this metric is calculated based on magnitude of these three-dimensional signals
-Calculation	Identify how this metric is calculated
-Axial		Identify which 3-axial signal (X, Y and Z directions) this metric shows 
-value		Value of the metric		
-average		Average value of the metric
+key(data_tidy)
+
+|Variable	|Definitions												    |
+|---------------|:---------------------------------------------------------------------------------------------------------:|
+|Subject	|Observaions											    	    |
+|Activity	|Activity No.												    |
+|Activity_Name	|Activity Name												    |
+|Var		|Calculated Metrics											    |
+|time_freq	|Identify whether this metric is calculated as time domain signals or frequency				    |
+|Acc_Gyro	|Identify whether this metric is calculated as accelerometer and gyroscope				    |
+|Body_Gravity	|Identify whether this metric is calculated as body acceleration signals or gravity acceleration signals    |
+|Jerk		|Identify whether this metric shows jerk signals							    |
+|Magnitude	|Identify whether this metric is calculated based on magnitude of these three-dimensional signals           |
+|Calculation	|Identify how this metric is calculated									    |
+|Axial		|Identify which 3-axial signal (X, Y and Z directions) this metric shows 				    |
+|value		|Value of the metric											    |
+|average	|Average value of the metric										    |
 
 ## Dataset Summary
 	summary(data_tidy)
@@ -43,7 +46,7 @@ average		Average value of the metric
 ## Variable Attributes
 	str(data_tidy)
 
-Classes ¡®data.table¡¯ and 'data.frame':  813615 obs. of  13 variables:
+Classes Â¡Â®data.tableÂ¡Â¯ and 'data.frame':  813615 obs. of  13 variables:
  $ Subject      : int  1 1 1 1 1 1 1 1 1 1 ...
  $ Activity     : int  1 1 1 1 1 1 1 1 1 1 ...
  $ Activity_Name: chr  "WALKING" "WALKING" "WALKING" "WALKING" ...
