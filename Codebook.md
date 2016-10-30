@@ -29,31 +29,28 @@ Code to see the summary of the dataset & variables is:
 summary(data_tidy)
 ```
 ```
- |Subject         |Activity        |Activity_Name      |Var                |time_freq         |
- |----------------|:--------------:|:-----------------:|:-----------------:|:----------------:|
- |Min.   : 1.00   |Min.   :1.000   |Length:813615      |Length:813615      |Length:813615     |
- |1st Qu.: 9.00   |1st Qu.:2.000   |Class :character   |Class :character   |Class :character  |
- |Median :17.00   |Median :4.000   |Mode  :character   |Mode  :character   |Mode  :character  |
- |Mean   :16.15   |Mean   :3.625   |                   |                   |                  |
- |3rd Qu.:24.00   |3rd Qu.:5.000   |                   |                   |                  |
- |Max.   :30.00   |Max.   :6.000   |                   |		   |		      |
+ Subject         Activity        Activity_Name      Var                time_freq         
+ Min.   : 1.00   Min.   :1.000   Length:813615      Length:813615      Length:813615     
+ 1st Qu.: 9.00   1st Qu.:2.000   Class :character   Class :character   Class :character  
+ Median :17.00   Median :4.000   Mode  :character   Mode  :character   Mode  :character  
+ Mean   :16.15   Mean   :3.625                                                           
+ 3rd Qu.:24.00   3rd Qu.:5.000                                                           
+ Max.   :30.00   Max.   :6.000                      		   		      
  
 
- |Acc_Gyro           |Body_Gravity       |Jerk               |Magnitude          |Calculation       	|
- |-------------------|:-----------------:|:-----------------:|:-----------------:|:--------------------:|
- |Length:813615      |Length:813615      |Length:813615      |Length:813615      |Length:813615     	|
- |Class :character   |Class :character   |Class :character   |Class :character   |Class :character  	|
- |Mode  :character   |Mode  :character   |Mode  :character   |Mode  :character   |Mode  :character  	|
+Acc_Gyro           Body_Gravity       Jerk               Magnitude          Calculation       	
+Length:813615      Length:813615      Length:813615      Length:813615      Length:813615     	
+Class :character   Class :character   Class :character   Class :character   Class :character  	
+Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  	
                                                                       
 
- |Axial              |value              |Average          | 
- |-------------------|:-----------------:|:---------------:|
- |Length:813615      |Min.   :-1.00000   |Min.   :-1.00000 | 
- |Class :character   |1st Qu.:-0.97211   |1st Qu.:-0.97211 | 
- |Mode  :character   |Median :-0.39936   |Median :-0.39936 | 
- |                   |Mean   :-0.43398   |Mean   :-0.43398 | 
- |                   |3rd Qu.:-0.04308   |3rd Qu.:-0.04308 | 
- |                   |Max.   : 1.00000   |Max.   : 1.00000 |
+ Axial              value              Average           
+ Length:813615      Min.   :-1.00000   Min.   :-1.00000  
+ Class :character   1st Qu.:-0.97211   1st Qu.:-0.97211  
+ Mode  :character   Median :-0.39936   Median :-0.39936  
+                    Mean   :-0.43398   Mean   :-0.43398  
+                    3rd Qu.:-0.04308   3rd Qu.:-0.04308  
+                    Max.   : 1.00000   Max.   : 1.00000 
 ```
 
 ## Variable Attributes
