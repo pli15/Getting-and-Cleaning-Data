@@ -28,7 +28,7 @@ Code to see the summary of the dataset & variables is:
 ```
 summary(data_tidy)
 ```
-
+```
  |Subject         |Activity        |Activity_Name      |Var                |time_freq         |
  |----------------|:--------------:|:-----------------:|:-----------------:|:----------------:|
  |Min.   : 1.00   |Min.   :1.000   |Length:813615      |Length:813615      |Length:813615     |
@@ -54,15 +54,16 @@ summary(data_tidy)
  |                   |Mean   :-0.43398   |Mean   :-0.43398 | 
  |                   |3rd Qu.:-0.04308   |3rd Qu.:-0.04308 | 
  |                   |Max.   : 1.00000   |Max.   : 1.00000 |
-		    
+```
+
 ## Variable Attributes
 Code to see the variable attributes is:
 ```
 str(data_tidy)
 ```
 	
-
-Classes ¡®data.table¡¯ and 'data.frame':  813615 obs. of  13 variables:
+```
+Classes data.table and 'data.frame':  813615 obs. of  13 variables:
  $ Subject      : int  1 1 1 1 1 1 1 1 1 1 ...
  $ Activity     : int  1 1 1 1 1 1 1 1 1 1 ...
  $ Activity_Name: chr  "WALKING" "WALKING" "WALKING" "WALKING" ...
@@ -78,3 +79,4 @@ Classes ¡®data.table¡¯ and 'data.frame':  813615 obs. of  13 variables:
  $ Average      : num  -0.983 -0.978 -0.954 -0.531 -0.523 ...
  - attr(*, "sorted")= chr  "Subject" "Activity" "Activity_Name" "Var" ...
  - attr(*, ".internal.selfref")=<externalptr> 
+```
