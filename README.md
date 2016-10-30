@@ -36,4 +36,3 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## Outputs
 1. Code book (Markdown): it explains what each variable refer to
-2. Tidy dataset (txt file): this is the final output
