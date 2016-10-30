@@ -1,3 +1,4 @@
+## prepare & download files
 install.packages("downloader",repos=c("http://rstudio.org/_packages","http://cran.rstudio.com"))
 library(downloader)
 fileurl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -5,7 +6,7 @@ download.file(fileurl,destfile="./courseproject.zip")
 unzip("courseproject.zip")
 list.files("./UCI HAR Dataset")
 
-
+##
 library(data.table)
 path<-setwd("D:\\clean data")
 
