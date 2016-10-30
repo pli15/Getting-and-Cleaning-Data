@@ -6,7 +6,7 @@ The variables here are all from the final tidy dataset.
 
 CODE TO LIST VARIABLES: 
 
-key(data_tidy)
+`key(data_tidy)
 
 |Variable	|Definitions												    |
 |---------------|:---------------------------------------------------------------------------------------------------------:|
